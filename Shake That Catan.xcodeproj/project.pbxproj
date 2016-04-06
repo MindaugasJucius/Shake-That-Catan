@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0304FD171C7E26ED009B70BB /* UIDevice+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 0304FD151C7E26ED009B70BB /* UIDevice+Private.m */; };
+		0382E7131C7E2993009CC6E5 /* TapticEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0382E7111C7E2993009CC6E5 /* TapticEngine.m */; };
+		0382E7161C7E3293009CC6E5 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0382E7151C7E3293009CC6E5 /* StatsViewController.swift */; };
+		0382E71D1C7F42E6009CC6E5 /* MMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 0382E71C1C7F42E6009CC6E5 /* MMacros.m */; };
+		03B5BA331C7E1CBB00CBA2B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5BA321C7E1CBB00CBA2B7 /* AppDelegate.swift */; };
+		03B5BA351C7E1CBB00CBA2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5BA341C7E1CBB00CBA2B7 /* ViewController.swift */; };
+		03B5BA381C7E1CBB00CBA2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B5BA361C7E1CBB00CBA2B7 /* Main.storyboard */; };
+		03B5BA3B1C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03B5BA391C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodeld */; };
+		03B5BA3D1C7E1CBB00CBA2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B5BA3C1C7E1CBB00CBA2B7 /* Assets.xcassets */; };
+		03B5BA401C7E1CBB00CBA2B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B5BA3E1C7E1CBB00CBA2B7 /* LaunchScreen.storyboard */; };
+		03B5BA4B1C7E1CBB00CBA2B7 /* Shake_That_CatanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5BA4A1C7E1CBB00CBA2B7 /* Shake_That_CatanTests.swift */; };
+		03B5BA561C7E1CE000CBA2B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B5BA551C7E1CE000CBA2B7 /* Extensions.swift */; };
+		EDAEE36A2CA0049270BCB5EF /* Pods_Shake_That_Catan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F242E623B232373A470D221 /* Pods_Shake_That_Catan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03B5BA471C7E1CBB00CBA2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03B5BA271C7E1CBB00CBA2B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03B5BA2E1C7E1CBB00CBA2B7;
+			remoteInfo = "Shake That Catan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0304FD141C7E26ED009B70BB /* UIDevice+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Private.h"; sourceTree = "<group>"; };
+		0304FD151C7E26ED009B70BB /* UIDevice+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Private.m"; sourceTree = "<group>"; };
+		0304FD161C7E26ED009B70BB /* UITapticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
+		0382E7101C7E2993009CC6E5 /* TapticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapticEngine.h; sourceTree = "<group>"; };
+		0382E7111C7E2993009CC6E5 /* TapticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapticEngine.m; sourceTree = "<group>"; };
+		0382E7141C7E29B0009CC6E5 /* Shake That Catan-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shake That Catan-Brigding-Header.h"; sourceTree = "<group>"; };
+		0382E7151C7E3293009CC6E5 /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		0382E71B1C7F42E6009CC6E5 /* MMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMacros.h; sourceTree = "<group>"; };
+		0382E71C1C7F42E6009CC6E5 /* MMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMacros.m; sourceTree = "<group>"; };
+		03B5BA2F1C7E1CBB00CBA2B7 /* Shake That Catan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake That Catan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B5BA321C7E1CBB00CBA2B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B5BA341C7E1CBB00CBA2B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03B5BA371C7E1CBB00CBA2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B5BA3A1C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shake_That_Catan.xcdatamodel; sourceTree = "<group>"; };
+		03B5BA3C1C7E1CBB00CBA2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B5BA3F1C7E1CBB00CBA2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B5BA411C7E1CBB00CBA2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B5BA461C7E1CBB00CBA2B7 /* Shake That CatanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake That CatanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B5BA4A1C7E1CBB00CBA2B7 /* Shake_That_CatanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_That_CatanTests.swift; sourceTree = "<group>"; };
+		03B5BA4C1C7E1CBB00CBA2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03B5BA551C7E1CE000CBA2B7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0F242E623B232373A470D221 /* Pods_Shake_That_Catan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shake_That_Catan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F747AA0571AE9DEE53FA305 /* Pods-Shake That Catan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake That Catan.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan.release.xcconfig"; sourceTree = "<group>"; };
+		931F39103B5561A1E355DD24 /* Pods-Shake That Catan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shake That Catan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B5BA2C1C7E1CBB00CBA2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAEE36A2CA0049270BCB5EF /* Pods_Shake_That_Catan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B5BA431C7E1CBB00CBA2B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0304FD131C7E26ED009B70BB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0304FD141C7E26ED009B70BB /* UIDevice+Private.h */,
+				0304FD151C7E26ED009B70BB /* UIDevice+Private.m */,
+				0304FD161C7E26ED009B70BB /* UITapticEngine.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		0382E70F1C7E2993009CC6E5 /* Taptic */ = {
+			isa = PBXGroup;
+			children = (
+				0382E7101C7E2993009CC6E5 /* TapticEngine.h */,
+				0382E7111C7E2993009CC6E5 /* TapticEngine.m */,
+			);
+			path = Taptic;
+			sourceTree = "<group>";
+		};
+		03B5BA261C7E1CBB00CBA2B7 = {
+			isa = PBXGroup;
+			children = (
+				0382E7141C7E29B0009CC6E5 /* Shake That Catan-Brigding-Header.h */,
+				03B5BA311C7E1CBB00CBA2B7 /* Shake That Catan */,
+				03B5BA491C7E1CBB00CBA2B7 /* Shake That CatanTests */,
+				03B5BA301C7E1CBB00CBA2B7 /* Products */,
+				FB65DD83698C89A09741C3C7 /* Pods */,
+				CA12C4182C05C51F12BB780E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03B5BA301C7E1CBB00CBA2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B5BA2F1C7E1CBB00CBA2B7 /* Shake That Catan.app */,
+				03B5BA461C7E1CBB00CBA2B7 /* Shake That CatanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B5BA311C7E1CBB00CBA2B7 /* Shake That Catan */ = {
+			isa = PBXGroup;
+			children = (
+				03B5BA321C7E1CBB00CBA2B7 /* AppDelegate.swift */,
+				03B5BA341C7E1CBB00CBA2B7 /* ViewController.swift */,
+				03B5BA361C7E1CBB00CBA2B7 /* Main.storyboard */,
+				0382E70F1C7E2993009CC6E5 /* Taptic */,
+				0304FD131C7E26ED009B70BB /* Headers */,
+				03B5BA3C1C7E1CBB00CBA2B7 /* Assets.xcassets */,
+				03B5BA3E1C7E1CBB00CBA2B7 /* LaunchScreen.storyboard */,
+				03B5BA411C7E1CBB00CBA2B7 /* Info.plist */,
+				03B5BA391C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodeld */,
+				03B5BA551C7E1CE000CBA2B7 /* Extensions.swift */,
+				0382E7151C7E3293009CC6E5 /* StatsViewController.swift */,
+				0382E71B1C7F42E6009CC6E5 /* MMacros.h */,
+				0382E71C1C7F42E6009CC6E5 /* MMacros.m */,
+			);
+			path = "Shake That Catan";
+			sourceTree = "<group>";
+		};
+		03B5BA491C7E1CBB00CBA2B7 /* Shake That CatanTests */ = {
+			isa = PBXGroup;
+			children = (
+				03B5BA4A1C7E1CBB00CBA2B7 /* Shake_That_CatanTests.swift */,
+				03B5BA4C1C7E1CBB00CBA2B7 /* Info.plist */,
+			);
+			path = "Shake That CatanTests";
+			sourceTree = "<group>";
+		};
+		CA12C4182C05C51F12BB780E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F242E623B232373A470D221 /* Pods_Shake_That_Catan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB65DD83698C89A09741C3C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				931F39103B5561A1E355DD24 /* Pods-Shake That Catan.debug.xcconfig */,
+				8F747AA0571AE9DEE53FA305 /* Pods-Shake That Catan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B5BA2E1C7E1CBB00CBA2B7 /* Shake That Catan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B5BA4F1C7E1CBB00CBA2B7 /* Build configuration list for PBXNativeTarget "Shake That Catan" */;
+			buildPhases = (
+				0ACC1A8506528622292888BE /* Check Pods Manifest.lock */,
+				03B5BA2B1C7E1CBB00CBA2B7 /* Sources */,
+				03B5BA2C1C7E1CBB00CBA2B7 /* Frameworks */,
+				03B5BA2D1C7E1CBB00CBA2B7 /* Resources */,
+				8BEE1DDCF82E14DC4FE0CB30 /* Embed Pods Frameworks */,
+				5D6A1D0A6235D3121836889E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake That Catan";
+			productName = "Shake That Catan";
+			productReference = 03B5BA2F1C7E1CBB00CBA2B7 /* Shake That Catan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03B5BA451C7E1CBB00CBA2B7 /* Shake That CatanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B5BA521C7E1CBB00CBA2B7 /* Build configuration list for PBXNativeTarget "Shake That CatanTests" */;
+			buildPhases = (
+				03B5BA421C7E1CBB00CBA2B7 /* Sources */,
+				03B5BA431C7E1CBB00CBA2B7 /* Frameworks */,
+				03B5BA441C7E1CBB00CBA2B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B5BA481C7E1CBB00CBA2B7 /* PBXTargetDependency */,
+			);
+			name = "Shake That CatanTests";
+			productName = "Shake That CatanTests";
+			productReference = 03B5BA461C7E1CBB00CBA2B7 /* Shake That CatanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B5BA271C7E1CBB00CBA2B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mindawg;
+				TargetAttributes = {
+					03B5BA2E1C7E1CBB00CBA2B7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = N823MDJ67R;
+					};
+					03B5BA451C7E1CBB00CBA2B7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 03B5BA2E1C7E1CBB00CBA2B7;
+					};
+				};
+			};
+			buildConfigurationList = 03B5BA2A1C7E1CBB00CBA2B7 /* Build configuration list for PBXProject "Shake That Catan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B5BA261C7E1CBB00CBA2B7;
+			productRefGroup = 03B5BA301C7E1CBB00CBA2B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B5BA2E1C7E1CBB00CBA2B7 /* Shake That Catan */,
+				03B5BA451C7E1CBB00CBA2B7 /* Shake That CatanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B5BA2D1C7E1CBB00CBA2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B5BA401C7E1CBB00CBA2B7 /* LaunchScreen.storyboard in Resources */,
+				03B5BA3D1C7E1CBB00CBA2B7 /* Assets.xcassets in Resources */,
+				03B5BA381C7E1CBB00CBA2B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B5BA441C7E1CBB00CBA2B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ACC1A8506528622292888BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6A1D0A6235D3121836889E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEE1DDCF82E14DC4FE0CB30 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B5BA2B1C7E1CBB00CBA2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B5BA351C7E1CBB00CBA2B7 /* ViewController.swift in Sources */,
+				0304FD171C7E26ED009B70BB /* UIDevice+Private.m in Sources */,
+				03B5BA3B1C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodeld in Sources */,
+				03B5BA331C7E1CBB00CBA2B7 /* AppDelegate.swift in Sources */,
+				0382E7161C7E3293009CC6E5 /* StatsViewController.swift in Sources */,
+				0382E7131C7E2993009CC6E5 /* TapticEngine.m in Sources */,
+				0382E71D1C7F42E6009CC6E5 /* MMacros.m in Sources */,
+				03B5BA561C7E1CE000CBA2B7 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03B5BA421C7E1CBB00CBA2B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B5BA4B1C7E1CBB00CBA2B7 /* Shake_That_CatanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B5BA481C7E1CBB00CBA2B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03B5BA2E1C7E1CBB00CBA2B7 /* Shake That Catan */;
+			targetProxy = 03B5BA471C7E1CBB00CBA2B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03B5BA361C7E1CBB00CBA2B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B5BA371C7E1CBB00CBA2B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B5BA3E1C7E1CBB00CBA2B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B5BA3F1C7E1CBB00CBA2B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B5BA4D1C7E1CBB00CBA2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B5BA4E1C7E1CBB00CBA2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B5BA501C7E1CBB00CBA2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931F39103B5561A1E355DD24 /* Pods-Shake That Catan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Shake That Catan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Shake-That-Catan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shake That Catan-Brigding-Header.h";
+			};
+			name = Debug;
+		};
+		03B5BA511C7E1CBB00CBA2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F747AA0571AE9DEE53FA305 /* Pods-Shake That Catan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Shake That Catan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Shake-That-Catan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shake That Catan-Brigding-Header.h";
+			};
+			name = Release;
+		};
+		03B5BA531C7E1CBB00CBA2B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake That CatanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Shake-That-CatanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake That Catan.app/Shake That Catan";
+			};
+			name = Debug;
+		};
+		03B5BA541C7E1CBB00CBA2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Shake That CatanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Shake-That-CatanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake That Catan.app/Shake That Catan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B5BA2A1C7E1CBB00CBA2B7 /* Build configuration list for PBXProject "Shake That Catan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B5BA4D1C7E1CBB00CBA2B7 /* Debug */,
+				03B5BA4E1C7E1CBB00CBA2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B5BA4F1C7E1CBB00CBA2B7 /* Build configuration list for PBXNativeTarget "Shake That Catan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B5BA501C7E1CBB00CBA2B7 /* Debug */,
+				03B5BA511C7E1CBB00CBA2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B5BA521C7E1CBB00CBA2B7 /* Build configuration list for PBXNativeTarget "Shake That CatanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B5BA531C7E1CBB00CBA2B7 /* Debug */,
+				03B5BA541C7E1CBB00CBA2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03B5BA391C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03B5BA3A1C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodel */,
+			);
+			currentVersion = 03B5BA3A1C7E1CBB00CBA2B7 /* Shake_That_Catan.xcdatamodel */;
+			path = Shake_That_Catan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03B5BA271C7E1CBB00CBA2B7 /* Project object */;
+}

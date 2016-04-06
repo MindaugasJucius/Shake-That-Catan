@@ -1,0 +1,13 @@
+PODS:
+  - AKPickerView-Swift (1.0.1)
+  - Aspects (1.4.1)
+
+DEPENDENCIES:
+  - AKPickerView-Swift
+  - Aspects
+
+SPEC CHECKSUMS:
+  AKPickerView-Swift: 8509d472bb257649383c276506334a7373d3cb33
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+
+COCOAPODS: 0.39.0

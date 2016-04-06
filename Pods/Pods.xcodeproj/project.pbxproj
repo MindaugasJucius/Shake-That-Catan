@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2362A3C999C1DE638CDFE9F7E42E3270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 28413EDD7673BBC3FCBC318CFB0175DE /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E40FE9D4E52B77168AD21CCE42D8C9F /* AKPickerView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C903F25B91B0F658F49119EA78354E1 /* AKPickerView-Swift-dummy.m */; };
+		5F699957EED14C715ECE7E017A731522 /* Pods-Shake That Catan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F3E66D5205C27E178BBE2D2126D977 /* Pods-Shake That Catan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		600AFBB621C2BCD1493451817ADD0340 /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909F4B845D911CCDDCCCE3F0DF7ED63 /* AKPickerView.swift */; };
+		71EEADDB4B3A55E45207153836251848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		81BA3CFD7AAAAB00C380E954875C9E0F /* AKPickerView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E86E742D1032BF712F545D030BD1F2B /* AKPickerView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B85564EB5489A3D310A4FDBA21D8F /* Aspects.m */; };
+		99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9177ED1231D8FC54518BC98A2DEB5E45 /* Aspects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BEE07EF6776955172BC2588FFC9973 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409E8527730DCC78E49F1F4460BB2F0 /* Aspects-dummy.m */; };
+		F3EA93990D706AC7649C3D9D90B876C7 /* Pods-Shake That Catan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706F5B05969EC2F836B74673CCFB8E6 /* Pods-Shake That Catan-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067D122007119AA06160D7055F9AC32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C766897D56D8A815526A1B61D99EA0CA;
+			remoteInfo = Aspects;
+		};
+		D4D4EDF81E9F42226C3822281C47F062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833BAB1B8689BCB97EB8BD7D288FD91D;
+			remoteInfo = "AKPickerView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0409E8527730DCC78E49F1F4460BB2F0 /* Aspects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aspects-dummy.m"; sourceTree = "<group>"; };
+		18141DCD9F7A7312D2BBDAACED91DF9C /* Pods-Shake That Catan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shake That Catan-frameworks.sh"; sourceTree = "<group>"; };
+		19F963A37C17D580961063BF1A24884F /* Pods-Shake That Catan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Shake That Catan.modulemap"; sourceTree = "<group>"; };
+		1C903F25B91B0F658F49119EA78354E1 /* AKPickerView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKPickerView-Swift-dummy.m"; sourceTree = "<group>"; };
+		26074D3648D51426B58F79B618245311 /* Pods-Shake That Catan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Shake That Catan-acknowledgements.plist"; sourceTree = "<group>"; };
+		28413EDD7673BBC3FCBC318CFB0175DE /* Aspects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		2D9148A1375FA71443066E32A6739AD3 /* AKPickerView_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKPickerView_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FED5882719C53463BD4635875FC95A /* Aspects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Aspects.modulemap; sourceTree = "<group>"; };
+		364F1620DBA99A12297BBEA67ADC889B /* Pods-Shake That Catan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Shake That Catan-resources.sh"; sourceTree = "<group>"; };
+		3706F5B05969EC2F836B74673CCFB8E6 /* Pods-Shake That Catan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Shake That Catan-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F93864E917ECB3B59A0700585BCA67A /* Pods-Shake That Catan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Shake That Catan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47C24371050284ECD4BFD46AC65D5DAD /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B609C4E0F8B9344F9ABBE528A473A13 /* AKPickerView-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AKPickerView-Swift.xcconfig"; sourceTree = "<group>"; };
+		59697E903449CF52FBBE278717332331 /* Aspects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aspects.xcconfig; sourceTree = "<group>"; };
+		5C7B85564EB5489A3D310A4FDBA21D8F /* Aspects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		5E86E742D1032BF712F545D030BD1F2B /* AKPickerView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPickerView-Swift-umbrella.h"; sourceTree = "<group>"; };
+		8A92E6C14A1FBFD561E4F59A908163A0 /* AKPickerView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AKPickerView-Swift.modulemap"; sourceTree = "<group>"; };
+		8BA32B99BFB170236E35CB55F3017B2F /* Aspects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-prefix.pch"; sourceTree = "<group>"; };
+		9177ED1231D8FC54518BC98A2DEB5E45 /* Aspects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aspects-umbrella.h"; sourceTree = "<group>"; };
+		96649EBE6E5FAD6A32E29752A839BD8E /* Pods-Shake That Catan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shake That Catan.release.xcconfig"; sourceTree = "<group>"; };
+		B4BFB6A8E8DE5288DC846A317722B9C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B909F4B845D911CCDDCCCE3F0DF7ED63 /* AKPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AKPickerView.swift; path = AKPickerView/AKPickerView.swift; sourceTree = "<group>"; };
+		B9B247A735C4D0475BDE77A1BDED27AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB1AA32E4B183B0F317498EBB592D546 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A7046852468D2DF835E6BA211BC75C /* AKPickerView-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKPickerView-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F7B0A1456175FB562D8D702167761C71 /* Pods_Shake_That_Catan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shake_That_Catan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F3E66D5205C27E178BBE2D2126D977 /* Pods-Shake That Catan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Shake That Catan-umbrella.h"; sourceTree = "<group>"; };
+		FF000F031B34CDD559327256CCEA2370 /* Pods-Shake That Catan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Shake That Catan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AA3641B5930AB6D3ABFAF46721BEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BEE07EF6776955172BC2588FFC9973 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B30C33B286A889588F5BAE789E9485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EEADDB4B3A55E45207153836251848 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E639498BC408D88276102AB4049804D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2362A3C999C1DE638CDFE9F7E42E3270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4853B8F4664F4267EF6E81DB64EE5EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9148A1375FA71443066E32A6739AD3 /* AKPickerView_Swift.framework */,
+				47C24371050284ECD4BFD46AC65D5DAD /* Aspects.framework */,
+				F7B0A1456175FB562D8D702167761C71 /* Pods_Shake_That_Catan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539E0A840B5112D9A53BE7E0B7632A9F /* Pods-Shake That Catan */ = {
+			isa = PBXGroup;
+			children = (
+				B9B247A735C4D0475BDE77A1BDED27AB /* Info.plist */,
+				19F963A37C17D580961063BF1A24884F /* Pods-Shake That Catan.modulemap */,
+				3F93864E917ECB3B59A0700585BCA67A /* Pods-Shake That Catan-acknowledgements.markdown */,
+				26074D3648D51426B58F79B618245311 /* Pods-Shake That Catan-acknowledgements.plist */,
+				3706F5B05969EC2F836B74673CCFB8E6 /* Pods-Shake That Catan-dummy.m */,
+				18141DCD9F7A7312D2BBDAACED91DF9C /* Pods-Shake That Catan-frameworks.sh */,
+				364F1620DBA99A12297BBEA67ADC889B /* Pods-Shake That Catan-resources.sh */,
+				F9F3E66D5205C27E178BBE2D2126D977 /* Pods-Shake That Catan-umbrella.h */,
+				FF000F031B34CDD559327256CCEA2370 /* Pods-Shake That Catan.debug.xcconfig */,
+				96649EBE6E5FAD6A32E29752A839BD8E /* Pods-Shake That Catan.release.xcconfig */,
+			);
+			name = "Pods-Shake That Catan";
+			path = "Target Support Files/Pods-Shake That Catan";
+			sourceTree = "<group>";
+		};
+		5F7832405B43B2B34CF6D8E1A0E266DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33FED5882719C53463BD4635875FC95A /* Aspects.modulemap */,
+				59697E903449CF52FBBE278717332331 /* Aspects.xcconfig */,
+				0409E8527730DCC78E49F1F4460BB2F0 /* Aspects-dummy.m */,
+				8BA32B99BFB170236E35CB55F3017B2F /* Aspects-prefix.pch */,
+				9177ED1231D8FC54518BC98A2DEB5E45 /* Aspects-umbrella.h */,
+				DB1AA32E4B183B0F317498EBB592D546 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Aspects";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D77DEEE7A036E79B8D67DBBC64F5620A /* Pods */,
+				4853B8F4664F4267EF6E81DB64EE5EBB /* Products */,
+				A49A11D34C85B3CA81BDB39140765AD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A49A11D34C85B3CA81BDB39140765AD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				539E0A840B5112D9A53BE7E0B7632A9F /* Pods-Shake That Catan */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9AC88EC89FEF54509FC90DDE337F89 /* AKPickerView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B909F4B845D911CCDDCCCE3F0DF7ED63 /* AKPickerView.swift */,
+				F0573186CEE0B281E56BAD8FFB88AF39 /* Support Files */,
+			);
+			path = "AKPickerView-Swift";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C89EB63175085B5941987DB809643EFF /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				28413EDD7673BBC3FCBC318CFB0175DE /* Aspects.h */,
+				5C7B85564EB5489A3D310A4FDBA21D8F /* Aspects.m */,
+				5F7832405B43B2B34CF6D8E1A0E266DA /* Support Files */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		D77DEEE7A036E79B8D67DBBC64F5620A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC9AC88EC89FEF54509FC90DDE337F89 /* AKPickerView-Swift */,
+				C89EB63175085B5941987DB809643EFF /* Aspects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0573186CEE0B281E56BAD8FFB88AF39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A92E6C14A1FBFD561E4F59A908163A0 /* AKPickerView-Swift.modulemap */,
+				4B609C4E0F8B9344F9ABBE528A473A13 /* AKPickerView-Swift.xcconfig */,
+				1C903F25B91B0F658F49119EA78354E1 /* AKPickerView-Swift-dummy.m */,
+				E6A7046852468D2DF835E6BA211BC75C /* AKPickerView-Swift-prefix.pch */,
+				5E86E742D1032BF712F545D030BD1F2B /* AKPickerView-Swift-umbrella.h */,
+				B4BFB6A8E8DE5288DC846A317722B9C2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AKPickerView-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1A8B3E23146AA1ACA486BEDA5209102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F699957EED14C715ECE7E017A731522 /* Pods-Shake That Catan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F559170E7524C5F737F7A04AFB4E38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BA3CFD7AAAAB00C380E954875C9E0F /* AKPickerView-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99355B3A4208CEEA655B60AB7D675FC5 /* Aspects-umbrella.h in Headers */,
+				4927D980EB038B019BE534AA57A3A55A /* Aspects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52ED76846E71F7A4DA9CE219B5C487AA /* Pods-Shake That Catan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A806D57C1691D4BD96FE6928D9ADBF2 /* Build configuration list for PBXNativeTarget "Pods-Shake That Catan" */;
+			buildPhases = (
+				3BD02F3193BA97215590F352CAF7308A /* Sources */,
+				53AA3641B5930AB6D3ABFAF46721BEDE /* Frameworks */,
+				A1A8B3E23146AA1ACA486BEDA5209102 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8198ED39BF267CD5EEA483A8DDC995D7 /* PBXTargetDependency */,
+				0BA136AEDBBC482C795A771F688F58F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Shake That Catan";
+			productName = "Pods-Shake That Catan";
+			productReference = F7B0A1456175FB562D8D702167761C71 /* Pods_Shake_That_Catan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		833BAB1B8689BCB97EB8BD7D288FD91D /* AKPickerView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E97A73DCF804ECBD69375F2B8B7F4D17 /* Build configuration list for PBXNativeTarget "AKPickerView-Swift" */;
+			buildPhases = (
+				F29BBFA369314CC63BE04A4158B3F855 /* Sources */,
+				E639498BC408D88276102AB4049804D3 /* Frameworks */,
+				D6F559170E7524C5F737F7A04AFB4E38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AKPickerView-Swift";
+			productName = "AKPickerView-Swift";
+			productReference = 2D9148A1375FA71443066E32A6739AD3 /* AKPickerView_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C766897D56D8A815526A1B61D99EA0CA /* Aspects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */;
+			buildPhases = (
+				01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */,
+				D2B30C33B286A889588F5BAE789E9485 /* Frameworks */,
+				F2F3B4CACB3893080AAA4ADDC1C185C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aspects;
+			productName = Aspects;
+			productReference = 47C24371050284ECD4BFD46AC65D5DAD /* Aspects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4853B8F4664F4267EF6E81DB64EE5EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833BAB1B8689BCB97EB8BD7D288FD91D /* AKPickerView-Swift */,
+				C766897D56D8A815526A1B61D99EA0CA /* Aspects */,
+				52ED76846E71F7A4DA9CE219B5C487AA /* Pods-Shake That Catan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F1EEC669A37DC92B6ED05EA9DB75E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEBC6EFDEA6FAB274CEA8F8963235B6 /* Aspects-dummy.m in Sources */,
+				839AC19FD3A0ACD7FCEBF5BA75716551 /* Aspects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD02F3193BA97215590F352CAF7308A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3EA93990D706AC7649C3D9D90B876C7 /* Pods-Shake That Catan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29BBFA369314CC63BE04A4158B3F855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E40FE9D4E52B77168AD21CCE42D8C9F /* AKPickerView-Swift-dummy.m in Sources */,
+				600AFBB621C2BCD1493451817ADD0340 /* AKPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BA136AEDBBC482C795A771F688F58F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Aspects;
+			target = C766897D56D8A815526A1B61D99EA0CA /* Aspects */;
+			targetProxy = 067D122007119AA06160D7055F9AC32A /* PBXContainerItemProxy */;
+		};
+		8198ED39BF267CD5EEA483A8DDC995D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AKPickerView-Swift";
+			target = 833BAB1B8689BCB97EB8BD7D288FD91D /* AKPickerView-Swift */;
+			targetProxy = D4D4EDF81E9F42226C3822281C47F062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		149150DC59E3EC616B2B83D3B87C7016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B609C4E0F8B9344F9ABBE528A473A13 /* AKPickerView-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView-Swift/AKPickerView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKPickerView-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKPickerView-Swift/AKPickerView-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AKPickerView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26B6101D634E09570D2B11B9E3CEA619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59697E903449CF52FBBE278717332331 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4075E5C847B023CF63DC3EC2BB3DFD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF000F031B34CDD559327256CCEA2370 /* Pods-Shake That Catan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shake That Catan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shake_That_Catan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884C2484DC4F774A03626176DC6BDF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96649EBE6E5FAD6A32E29752A839BD8E /* Pods-Shake That Catan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Shake That Catan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Shake That Catan/Pods-Shake That Catan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Shake_That_Catan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D15271BBF16357FF28E63E8C1ACA4AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59697E903449CF52FBBE278717332331 /* Aspects.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Aspects/Aspects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Aspects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Aspects/Aspects.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Aspects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F260A1C6D3EE966322215F554F85F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B609C4E0F8B9344F9ABBE528A473A13 /* AKPickerView-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AKPickerView-Swift/AKPickerView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKPickerView-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKPickerView-Swift/AKPickerView-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AKPickerView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36AC6EAD5B748ED9BB6C05E0808C6B2E /* Build configuration list for PBXNativeTarget "Aspects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B6101D634E09570D2B11B9E3CEA619 /* Debug */,
+				D15271BBF16357FF28E63E8C1ACA4AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A806D57C1691D4BD96FE6928D9ADBF2 /* Build configuration list for PBXNativeTarget "Pods-Shake That Catan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4075E5C847B023CF63DC3EC2BB3DFD79 /* Debug */,
+				884C2484DC4F774A03626176DC6BDF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E97A73DCF804ECBD69375F2B8B7F4D17 /* Build configuration list for PBXNativeTarget "AKPickerView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F260A1C6D3EE966322215F554F85F6 /* Debug */,
+				149150DC59E3EC616B2B83D3B87C7016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
